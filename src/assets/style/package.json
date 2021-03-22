@@ -1,0 +1,7 @@
+{
+  "name": "@levecap/style",
+  "version": "1.0.70",
+  "dependencies": {
+    "./../nunito": "^1.0.10"
+  }
+}

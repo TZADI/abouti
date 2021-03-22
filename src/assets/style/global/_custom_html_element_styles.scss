@@ -1,0 +1,88 @@
+@import './../colors';
+
+a:not(.mat-button-base) {
+  text-decoration: none;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+  color: $app-color-primary;
+
+  &:visited {
+    color: $app-color-primary;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &[color='primary'] {
+    color: $app-color-primary;
+    &:visited {
+      color: $app-color-primary;
+    }
+  }
+
+  &[color='accent'] {
+    color: $app-color-accent;
+    &:visited {
+      color: $app-color-accent;
+    }
+  }
+
+  &[color='warn'] {
+    color: $app-color-warn;
+    &:visited {
+      color: $app-color-warn;
+    }
+  }
+}
+
+a,
+button,
+[routerLink] {
+  outline: none !important;
+}
+
+img {
+  outline: none;
+}
+
+table {
+  width: 100%;
+}
+
+label {
+  font-size: smaller;
+  font-weight: bolder;
+}
+
+hr {
+  width: 100%;
+  border-top: 1px solid $app-color-grey;
+
+  &[color='primary'] {
+    border-color: $app-color-primary;
+  }
+
+  &[color='accent'] {
+    border-color: $app-color-accent;
+  }
+
+  &[color='warn'] {
+    border-color: $app-color-warn;
+  }
+}
+
+/*
+https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box
+ */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type='number'] {
+  -moz-appearance: textfield; /* Firefox */
+}

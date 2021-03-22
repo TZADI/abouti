@@ -1,0 +1,18 @@
+@import './../../colors';
+
+.mat-dialog-container {
+  color: $app-color-primary;
+
+  .mat-dialog-title {
+    font-weight: bold;
+  }
+
+  .dialog-subtitle {
+    margin-bottom: 16px;
+  }
+
+  &*[fxlayout$='wrap'][fxlayoutgap$='grid'] {
+    // Fixes grid margin problem inide matDialog
+    margin-bottom: 0px !important;
+  }
+}

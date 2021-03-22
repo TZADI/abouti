@@ -1,0 +1,27 @@
+.mat-error {
+  animation: blink_me 3.5s !important;
+}
+
+@keyframes blink_me {
+  0% {
+    opacity: 0.3;
+  }
+  15% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  45% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.3;
+  }
+  75% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.3;
+  }
+}

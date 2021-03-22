@@ -1,0 +1,28 @@
+// THEME COLORS
+$app-color-primary: #2d3e50;
+$app-color-primary-light: lighten($app-color-primary, 50%);
+$app-color-primary-dark: darken($app-color-primary, 50%);
+$app-color-primary-contrast: white;
+
+$app-color-accent: #eb5790;
+$app-color-accent-light: lighten($app-color-accent, 50%);
+$app-color-accent-dark: darken($app-color-accent, 50%);
+$app-color-accent-contrast: white;
+
+$app-color-warn: #f39c11;
+$app-color-warn-light: lighten($app-color-warn, 50%);
+$app-color-warn-dark: darken($app-color-warn, 50%);
+$app-color-warn-contrast: white;
+
+// OTHER COLORS
+$app-color-grey: #5d5d5d;
+$app-color-grey-contrast: white;
+
+$app-color-success: #27ae60;
+$app-color-success-contrast: white;
+
+$app-color-error: #c1392b;
+$app-color-error-contrast: white;
+
+$app-color-info: #0288d1;
+$app-color-info-contrast: white;

@@ -1,0 +1,15 @@
+@import './../colors';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100% !important;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: $app-color-primary;
+}

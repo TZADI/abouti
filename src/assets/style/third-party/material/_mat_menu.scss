@@ -1,0 +1,16 @@
+.mat-menu-item {
+  color: $app-color-primary;
+}
+
+button.mat-menu-item:hover, .mat-row:focus-within{
+  background-color: rgba(22, 225, 193, 0.25) !important;
+}
+
+.mat-menu-content {
+  padding: 0 !important;
+}
+
+.mat-menu-panel{
+  min-width: 130px !important;
+  min-height: 0 !important;
+}

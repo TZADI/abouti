@@ -1,0 +1,59 @@
+@import "./../colors";
+
+// THEME COLORS
+.app-color-accent {
+  color: $app-color-accent;
+}
+.app-color-bg-accent {
+  background-color: $app-color-accent;
+  color: $app-color-accent-contrast;
+}
+
+.app-color-primary {
+  color: $app-color-primary;
+}
+.app-color-bg-primary {
+  background-color: $app-color-primary;
+  color: $app-color-primary-contrast;
+}
+
+.app-color-warn {
+  color: $app-color-warn;
+}
+.app-color-bg-warn {
+  background-color: $app-color-warn;
+  color: $app-color-warn-contrast;
+}
+
+// OTHER COLORS
+.app-color-grey {
+  color: $app-color-grey;
+}
+.app-color-bg-grey {
+  background-color: $app-color-grey;
+  color: $app-color-grey-contrast;
+}
+
+.app-color-success {
+  color: $app-color-success;
+}
+.app-color-bg-success {
+  background-color: $app-color-success;
+  color: $app-color-success-contrast;
+}
+
+.app-color-error {
+  color: $app-color-error;
+}
+.app-color-bg-error {
+  background-color: $app-color-error;
+  color: $app-color-error-contrast;
+}
+
+.app-color-info {
+  color: $app-color-info;
+}
+.app-color-bg-info {
+  background-color: $app-color-info;
+  color: $app-color-info-contrast;
+}

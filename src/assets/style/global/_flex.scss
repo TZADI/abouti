@@ -1,0 +1,56 @@
+@mixin flexJustify() {
+  &.start {
+    justify-content: start;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.end {
+    justify-content: end;
+  }
+  &.space-between {
+    justify-content: space-between;
+  }
+  &.space-around {
+    justify-content: space-around;
+  }
+}
+
+@mixin flexContainer() {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  @include flexJustify();
+}
+
+// BOX
+.flex-row {
+  flex-direction: row;
+  @include flexContainer();
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  flex-direction: column;
+  @include flexContainer();
+}
+
+.flex-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+// ITEMS
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-row,
+.flex-column {
+  gap: 16px;
+}

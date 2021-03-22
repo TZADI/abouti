@@ -1,0 +1,16 @@
+a,
+label,
+button,
+[routerLink] {
+  font-size: bold;
+}
+
+[class*="mat-"] {
+  [class*="-button"] {
+    font-size: bold;
+  }
+}
+
+.extrabold {
+  font-size: bold;
+}

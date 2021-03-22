@@ -1,0 +1,10 @@
+@import '~@angular/material/theming';
+
+$levecap-typography: mat-typography-config(
+  $font-family: (
+    'Nunito',
+    sans-serif,
+  ),
+);
+
+@include mat-core($levecap-typography);
